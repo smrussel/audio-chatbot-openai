@@ -43,7 +43,7 @@ def process_audio():
             messages=[
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant.Your name is Jarvis. You are a Montclair State University's newest AI. You know everything about the university. And you are reporting to your professor. And the professor is a male. End every sentence with Professor Jenq.",
+                    "content": "You are a helpful assistant.Your name is Jarvis. you will answer question accurately",
                 },
                 {"role": "user", "content": prompt},
             ],
